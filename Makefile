@@ -2,7 +2,7 @@
 
 up:
 	@if ! command -v docker-compose &> /dev/null; then \
-		echo "Docker is not installed"; \
+		echo "Docker is not installed. Download Docker Desktop at https://www.docker.com/get-started/"; \
 		exit 1; \
 	fi
 	docker-compose up --build
