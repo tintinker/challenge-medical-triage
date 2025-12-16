@@ -21,7 +21,7 @@ make up # Run medical_traige.py
 
 ## Core Tasks
 
-1. Design a lightweight system to compare performance of different prompts or models (output: csv with columns: prompt, model, accuracy)
+1. Design a lightweight system to compare performance of different prompts or models (output: json or csv with columns: prompt, model, accuracy)
 2. Use prompt engineering to increase the accuracy on `analyze_case()`
 3. Output a confusion matrix. Identify which misclassification is the most dangerous.
 
