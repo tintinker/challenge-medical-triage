@@ -1,9 +1,8 @@
 import json
 from openai import OpenAI
 from typing import List, Optional, Literal, Dict, Any, Tuple
-import redis
 from pydantic import BaseModel, Field
-from util import get_api_key_and_redis_client, retrieve_cache, store_cache
+from util import get_api_key_and_cache, retrieve_cache, store_cache
 from pathlib import Path
 
 PROMPT_TEMPLATE = """
@@ -53,11 +52,11 @@ class MedicalTriageSystem:
         api_key: str,
         prompt_template: str = PROMPT_TEMPLATE,
         model: str = "gpt-4o-mini",
-        redis_client: Optional[redis.Redis] = None,
+        cache_data: Optional[Dict] = None,
     ):
         self.client = OpenAI(api_key=api_key)
         self.model = model
-        self.redis = redis_client
+        self.cache = cache_data
         self.prompt_template = prompt_template
 
     def analyze_case(self, case: TriageCase) -> Tuple[Dict[str, Any], bool]:
@@ -73,7 +72,7 @@ class MedicalTriageSystem:
         cache_key = f"{self.model}|{self.prompt_template}|{case.age}|{case.symptoms}|{case.medical_history}"
 
         # Try to retrieve from cache
-        if cached_result := retrieve_cache(self.redis, cache_key):
+        if cached_result := retrieve_cache(self.cache, cache_key):
             return cached_result, True
 
         # Cache miss - generate result by calling the API
@@ -104,7 +103,7 @@ class MedicalTriageSystem:
         }
 
         # Store result in cache (no expiry)
-        store_cache(self.redis, cache_key, result, ttl=None)
+        store_cache(self.cache, cache_key, result, ttl=None)
 
         return result, False
 
@@ -135,9 +134,9 @@ def main(
     prompt_template: str = PROMPT_TEMPLATE,
     tracker_filename: str = "tracker.csv",
 ):
-    api_key, redis_client = get_api_key_and_redis_client()
+    api_key, cache_data = get_api_key_and_cache()
     system = MedicalTriageSystem(
-        api_key, prompt_template=prompt_template, model=model, redis_client=redis_client
+        api_key, prompt_template=prompt_template, model=model, cache_data=cache_data
     )
 
     with open(Path(__file__).parent / test_cases_filename, "r") as f:

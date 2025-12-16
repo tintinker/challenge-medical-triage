@@ -1,0 +1,602 @@
+{
+  "triage:fb46b30cf99a3856fcfee82ef6016997": {
+    "patient_id": "P059",
+    "predicted_urgency": "LOW",
+    "reasoning": "The patient has a minor burn, which typically does not require urgent medical attention. Although the patient has diabetes, it is well-controlled, reducing the risk of complications. Monitoring the burn for signs of infection is advisable, but immediate medical intervention is not necessary."
+  },
+  "triage:959da6632af482fc640e670f7b6d43f4": {
+    "patient_id": "P044",
+    "predicted_urgency": "HIGH",
+    "reasoning": "The patient presents with severe bleeding and severe head trauma, both of which are critical conditions that require immediate medical attention. Severe head trauma can lead to life-threatening complications such as brain injury, and severe bleeding can result in significant blood loss and shock. The combination of these symptoms indicates a high level of urgency."
+  },
+  "triage:e3ef9f9bb96f5742e014975ed4c4542c": {
+    "patient_id": "P004",
+    "predicted_urgency": "HIGH",
+    "reasoning": "The patient is experiencing a seizure, which can indicate a serious underlying condition, especially in a previously healthy individual with no known medical history. Immediate evaluation is necessary to determine the cause and to prevent potential complications."
+  },
+  "triage:48f9b79beafa92db44853f34965a4bef": {
+    "patient_id": "P051",
+    "predicted_urgency": "HIGH",
+    "reasoning": "The patient is experiencing difficulty breathing and has a high fever, which could indicate a serious underlying condition such as an infection or respiratory issue. The combination of these symptoms necessitates immediate medical evaluation."
+  },
+  "triage:9c877ab7b5e38dbba1d1bf0bd34e59cc": {
+    "patient_id": "P036",
+    "predicted_urgency": "HIGH",
+    "reasoning": "The patient is exhibiting symptoms of sudden weakness and slurred speech, which are indicative of a possible stroke or other serious neurological event. Immediate medical evaluation is critical to prevent potential long-term damage or complications."
+  },
+  "triage:1fba9c7c98ff21a4d9b93cfc445d23bb": {
+    "patient_id": "P007",
+    "predicted_urgency": "HIGH",
+    "reasoning": "The patient is unconscious, which is a critical condition that requires immediate medical attention. Moderate pain may indicate an underlying issue that needs to be addressed urgently. Unconsciousness in a 15-year-old is a medical emergency."
+  },
+  "triage:1186d0388ec1acae85ae59a507e41960": {
+    "patient_id": "P049",
+    "predicted_urgency": "HIGH",
+    "reasoning": "The patient is unconscious, which is a critical condition requiring immediate medical attention, especially in a 1-year-old child. The presence of a minor burn and moderate pain further necessitates urgent evaluation and treatment to prevent complications."
+  },
+  "triage:f4c0285ea8652d158ad6c81ec06d3110": {
+    "patient_id": "P042",
+    "predicted_urgency": "MEDIUM",
+    "reasoning": "The patient is a young child with a minor burn and moderate pain, which requires prompt attention to manage pain and prevent infection. The slight dizziness could be a result of pain or a reaction to the burn, but given the age of the patient, it is important to ensure there are no complications. While not immediately life-threatening, the symptoms warrant timely medical evaluation."
+  },
+  "triage:5a95e99f0fdff8cdd574c996aab7d9c7": {
+    "patient_id": "P056",
+    "predicted_urgency": "LOW",
+    "reasoning": "The patient has a mild rash and a well-controlled medical history of diabetes, which does not indicate an immediate threat to health. Monitoring the rash and maintaining diabetes management is appropriate."
+  },
+  "triage:4bcc0dd361c9a6f6970c90946352e154": {
+    "patient_id": "P014",
+    "predicted_urgency": "HIGH",
+    "reasoning": "The patient is experiencing vomiting blood, severe bleeding, sudden weakness, and slurred speech, which are all potentially life-threatening symptoms. Vomiting blood and severe bleeding could indicate internal bleeding or a serious gastrointestinal issue. Sudden weakness and slurred speech could suggest a neurological event such as a stroke. Immediate medical evaluation and intervention are necessary."
+  },
+  "triage:dd8b10d9607571add68ac77a77b762a0": {
+    "patient_id": "P024",
+    "predicted_urgency": "MEDIUM",
+    "reasoning": "The patient has a mild rash and a minor burn, which are generally not life-threatening but require evaluation. The slight dizziness could indicate a potential issue, especially considering the patient's history of diabetes, which may complicate the situation. Monitoring and further assessment are recommended."
+  },
+  "triage:1aba7b25399a8f6f6c2ada7c9844c76f": {
+    "patient_id": "P040",
+    "predicted_urgency": "HIGH",
+    "reasoning": "The sudden weakness and slurred speech are concerning for a possible stroke or transient ischemic attack (TIA), which are medical emergencies requiring immediate evaluation and treatment. The mild rash and minor laceration are less concerning but do not diminish the urgency of the neurological symptoms."
+  },
+  "triage:8d4aca1ac8e7076e1713b27100f9a087": {
+    "patient_id": "P056",
+    "predicted_urgency": "LOW",
+    "reasoning": "The patient is experiencing a mild rash, which is generally not an urgent condition. The patient's diabetes is well-controlled, which reduces the likelihood of complications related to the rash. However, monitoring is advised to ensure the rash does not worsen or become infected."
+  },
+  "triage:a1dea3bdcba49ef7cc9501d13fee0a9e": {
+    "patient_id": "P010",
+    "predicted_urgency": "HIGH",
+    "reasoning": "The patient is experiencing vomiting blood, which is a sign of a potentially serious condition, along with seizures and a high fever. These symptoms indicate a medical emergency that requires immediate attention, especially considering the patient's diabetes, which can complicate their condition."
+  },
+  "triage:7082856cd107b0606f1c99c5b96689c0": {
+    "patient_id": "P027",
+    "predicted_urgency": "HIGH",
+    "reasoning": "The presence of severe bleeding is a critical factor that elevates the urgency level to high. Severe bleeding can lead to significant blood loss and potentially life-threatening complications if not addressed promptly. The other symptoms, such as mild nausea, minor laceration, and minor burn, are less concerning but do not mitigate the urgency created by the severe bleeding."
+  },
+  "triage:8a4d562c962bc63b7d147e4fd1edf864": {
+    "patient_id": "P013",
+    "predicted_urgency": "HIGH",
+    "reasoning": "The patient is experiencing severe head trauma and difficulty breathing, both of which are critical conditions that require immediate medical attention. Head trauma can lead to serious complications such as brain injury, and difficulty breathing can indicate compromised airway or respiratory distress. These symptoms in combination pose a significant risk to the patient's life and necessitate urgent intervention."
+  },
+  "triage:0331d2d0d4ed6d53c0c81feed9365a05": {
+    "patient_id": "P029",
+    "predicted_urgency": "HIGH",
+    "reasoning": "The patient is experiencing severe chest pain and a high fever, which could indicate a serious underlying condition such as pneumonia or myocarditis, especially in the context of their diabetes. The minor burn is less concerning compared to the other symptoms, but the combination of severe chest pain and high fever necessitates immediate medical evaluation."
+  },
+  "triage:52a9bf8fd4829286482ce9aee46232a3": {
+    "patient_id": "P043",
+    "predicted_urgency": "LOW",
+    "reasoning": "The patient is 18 years old with slight dizziness and no known medical history. While dizziness can be concerning, the absence of other symptoms (such as severe headache, fainting, or neurological signs) and the patient's age suggest that this is likely not an urgent situation."
+  },
+  "triage:7135975c14145220a362364374ea041b": {
+    "patient_id": "P036",
+    "predicted_urgency": "HIGH",
+    "reasoning": "The symptoms of sudden weakness and slurred speech are indicative of a possible stroke or transient ischemic attack (TIA), which are medical emergencies requiring immediate evaluation and treatment to prevent long-term damage or complications."
+  },
+  "triage:e281a53fe7164ed2bc3f7e02fb9017a5": {
+    "patient_id": "P053",
+    "predicted_urgency": "LOW",
+    "reasoning": "The patient has a minor laceration, which typically does not require immediate medical attention unless there are signs of infection or significant bleeding. The patient's high cholesterol is a chronic condition that does not impact the urgency of the current situation."
+  },
+  "triage:ff090d1c3ce4bd704fa7c30e9bf1b612": {
+    "patient_id": "P040",
+    "predicted_urgency": "HIGH",
+    "reasoning": "The patient is experiencing sudden weakness and slurred speech, which are concerning symptoms that could indicate a stroke or other serious neurological condition. The mild rash and minor laceration are less urgent but do not negate the need for immediate evaluation of the more critical symptoms."
+  },
+  "triage:c8703f3ef170815387cdef8bbb4b04ff": {
+    "patient_id": "P058",
+    "predicted_urgency": "MEDIUM",
+    "reasoning": "The patient is experiencing a high fever and moderate pain, which could indicate an infection or other medical condition that requires attention. While the fever is significant, there are no immediate life-threatening symptoms such as difficulty breathing, chest pain, or altered mental status. The patient's history as a former smoker does not directly increase the urgency in this context. However, medical evaluation is recommended to determine the cause of the fever and pain."
+  },
+  "triage:dff2ffc5e62ab0feccfdf51eef3cc69d": {
+    "patient_id": "P019",
+    "predicted_urgency": "HIGH",
+    "reasoning": "The patient is unconscious and has severe head trauma, which are critical conditions that require immediate medical attention. Unconsciousness indicates a potential life-threatening situation, and severe head trauma can lead to complications such as brain injury or bleeding. These factors classify the case as high urgency."
+  },
+  "triage:bcce9f3e8249f5da9eb2b9fede68b4c2": {
+    "patient_id": "P030",
+    "predicted_urgency": "HIGH",
+    "reasoning": "The patient is unconscious and experiencing severe chest pain and severe bleeding, which are critical symptoms that require immediate medical attention. The combination of these symptoms, especially in the context of a history of severe asthma, indicates a potentially life-threatening situation."
+  },
+  "triage:83eab547e568ddb566b2bb2d4bd5a191": {
+    "patient_id": "P053",
+    "predicted_urgency": "LOW",
+    "reasoning": "The patient has a minor laceration, which typically does not require immediate medical attention unless there are signs of infection or excessive bleeding. The medical history of high cholesterol does not impact the urgency of a minor laceration."
+  },
+  "triage:758c319eb292ebda2efd3c4b525a6a74": {
+    "patient_id": "P008",
+    "predicted_urgency": "HIGH",
+    "reasoning": "The patient is experiencing a high fever and severe bleeding, both of which are concerning symptoms that could indicate a serious underlying condition. The combination of these symptoms, especially in the absence of a known medical history, warrants immediate medical attention to prevent potential complications."
+  },
+  "triage:6886a8e17ec5abfa0585a24649cb1e99": {
+    "patient_id": "P034",
+    "predicted_urgency": "HIGH",
+    "reasoning": "The patient is a 4-year-old child who is unconscious and vomiting blood, which are critical symptoms indicating a potential life-threatening condition. Given the recent heart surgery, there is a high risk of complications such as internal bleeding or cardiac issues, necessitating immediate medical attention."
+  },
+  "triage:e7bb45ec06015a23d2855494765d16c7": {
+    "patient_id": "P021",
+    "predicted_urgency": "HIGH",
+    "reasoning": "The patient is experiencing sudden weakness and slurred speech, which could indicate a neurological issue such as a stroke. Given the patient's history of severe asthma, there may also be a risk of respiratory complications. Immediate medical evaluation is necessary."
+  },
+  "triage:537a9c6a904171257853d0e04e1c2e4c": {
+    "patient_id": "P023",
+    "predicted_urgency": "HIGH",
+    "reasoning": "The patient is 77 years old and on blood thinners, which increases the risk of serious complications such as bleeding. Moderate pain and mild nausea could indicate a serious underlying condition that requires immediate evaluation."
+  },
+  "triage:601095204d934eea29d09da9d9808d68": {
+    "patient_id": "P029",
+    "predicted_urgency": "HIGH",
+    "reasoning": "The presence of severe chest pain and high fever in a child, especially with a history of diabetes, is concerning and requires immediate medical attention. These symptoms could indicate a serious underlying condition such as an infection or cardiac issue. The minor burn is less concerning but does not diminish the urgency created by the other symptoms."
+  },
+  "triage:d413056a937a09bf1be5d1e65a482022": {
+    "patient_id": "P014",
+    "predicted_urgency": "HIGH",
+    "reasoning": "The patient is exhibiting critical symptoms including vomiting blood, severe bleeding, sudden weakness, and slurred speech, which indicate potential life-threatening conditions such as internal bleeding or neurological issues. Immediate medical attention is required."
+  },
+  "triage:e0b9dacabd59ffa8be0a8639ed137d0f": {
+    "patient_id": "P048",
+    "predicted_urgency": "HIGH",
+    "reasoning": "The patient is experiencing sudden weakness and slurred speech, which are potential signs of a stroke, a medical emergency requiring immediate attention. Additionally, vomiting blood indicates a possible gastrointestinal bleed, which is also a serious condition. The combination of these symptoms in a 58-year-old patient with no known medical history suggests a high urgency for immediate medical evaluation and intervention."
+  },
+  "triage:9b9fb7a229e53aa954b7ba35060b2c61": {
+    "patient_id": "P054",
+    "predicted_urgency": "HIGH",
+    "reasoning": "The presence of severe bleeding is a critical symptom that requires immediate medical attention to prevent significant blood loss and potential complications. The mild rash is less concerning, but the severe bleeding elevates the urgency level to high."
+  },
+  "triage:f05de601efac15cd6f07e9b1214c8c01": {
+    "patient_id": "P035",
+    "predicted_urgency": "HIGH",
+    "reasoning": "The patient is experiencing a seizure and difficulty breathing, both of which are potentially life-threatening symptoms. Seizures can indicate a serious neurological issue, and difficulty breathing can lead to inadequate oxygenation of the body. Immediate medical evaluation and intervention are necessary to prevent further complications."
+  },
+  "triage:1cb19312a4d7fc76d986b11788ae519d": {
+    "patient_id": "P015",
+    "predicted_urgency": "HIGH",
+    "reasoning": "The patient is experiencing a seizure and difficulty breathing, both of which are potentially life-threatening symptoms. At the age of 70, these symptoms could indicate a serious underlying condition such as a stroke, cardiac event, or severe respiratory issue. Immediate medical evaluation and intervention are necessary to prevent further complications."
+  },
+  "triage:8a93feb9c6540ac3192b125c0e0dcfec": {
+    "patient_id": "P002",
+    "predicted_urgency": "HIGH",
+    "reasoning": "The patient is unconscious and has severe head trauma, which are critical conditions requiring immediate medical attention. Additionally, the history of heart disease increases the risk of complications, further necessitating urgent care."
+  },
+  "triage:8708f52469eb8c139447d7bd12d2689f": {
+    "patient_id": "P007",
+    "predicted_urgency": "HIGH",
+    "reasoning": "The patient is unconscious, which is a critical condition requiring immediate medical attention to assess and address potential life-threatening causes. Moderate pain is also present, but the unconscious state is the primary concern."
+  },
+  "triage:f7e7bfc48d63a70066081653b8db79d0": {
+    "patient_id": "P005",
+    "predicted_urgency": "HIGH",
+    "reasoning": "The patient is vomiting blood, which is a potentially life-threatening condition known as hematemesis. Given the patient's age and history of heart disease, there is an increased risk of complications such as significant blood loss or cardiovascular instability. Immediate medical evaluation and intervention are necessary to determine the cause and provide appropriate treatment."
+  },
+  "triage:72785eb3c491aa5f18b3e15a7ca61ec7": {
+    "patient_id": "P020",
+    "predicted_urgency": "HIGH",
+    "reasoning": "The patient is 85 years old and presents with severe chest pain, unconsciousness, and difficulty breathing, which are critical symptoms indicating a potential life-threatening condition such as a heart attack or respiratory failure. Immediate medical attention is required."
+  },
+  "triage:5a470aa9f0828d58a0dc54ca8a1876c1": {
+    "patient_id": "P049",
+    "predicted_urgency": "HIGH",
+    "reasoning": "The patient is unconscious, which is a critical condition requiring immediate medical attention. The presence of a minor burn and moderate pain further indicates the need for urgent evaluation and treatment."
+  },
+  "triage:49281fbe42e81b94f155453e5aacea46": {
+    "patient_id": "P026",
+    "predicted_urgency": "HIGH",
+    "reasoning": "The presence of a seizure in a 5-year-old child is concerning and requires immediate medical evaluation to determine the cause and prevent further complications. Additionally, the child is on blood thinners, which could complicate any potential injuries or underlying conditions. The combination of these factors, along with moderate pain from a burn, necessitates urgent medical attention."
+  },
+  "triage:88a8f5daa2034b2011d5abf2ab2c93a8": {
+    "patient_id": "P018",
+    "predicted_urgency": "HIGH",
+    "reasoning": "The patient is experiencing a seizure, which can indicate a serious underlying condition, especially in a 57-year-old with no known medical history. Immediate evaluation is necessary to determine the cause and initiate appropriate treatment."
+  },
+  "triage:f105eefdb3c52a8fc5b03d6f114e050a": {
+    "patient_id": "P010",
+    "predicted_urgency": "HIGH",
+    "reasoning": "The patient is experiencing vomiting blood, seizures, and a high fever, which are all serious symptoms. Additionally, the patient has a history of diabetes, which can complicate the situation further. Vomiting blood could indicate a gastrointestinal bleed, seizures could be due to a variety of critical conditions, and a high fever suggests a possible severe infection or other acute illness. Immediate medical evaluation and intervention are necessary."
+  },
+  "triage:00df1f419df596056383e3d241f3e450": {
+    "patient_id": "P058",
+    "predicted_urgency": "MEDIUM",
+    "reasoning": "The patient has a high fever and moderate pain, which could indicate an infection or other significant illness. While the symptoms are concerning, they do not present an immediate life-threatening situation. However, prompt medical evaluation is necessary to determine the underlying cause."
+  },
+  "triage:a1f4be3c8c0ac4ddc0cb56e86dd87d1f": {
+    "patient_id": "P002",
+    "predicted_urgency": "HIGH",
+    "reasoning": "The patient is unconscious and has severe head trauma, which are both critical conditions requiring immediate medical attention. Additionally, the history of heart disease increases the risk of complications. These factors together indicate a high urgency level."
+  },
+  "triage:318e66797f387225b36a4ec4a209d70f": {
+    "patient_id": "P033",
+    "predicted_urgency": "HIGH",
+    "reasoning": "The symptoms of sudden weakness, slurred speech, and slight dizziness in a 14-year-old with no known medical history are concerning for a possible neurological event, such as a transient ischemic attack (TIA) or stroke. These symptoms require immediate medical evaluation to rule out serious conditions and to initiate appropriate treatment if necessary."
+  },
+  "triage:9a14c6b76a7ecd66a32018f0fcfdd4df": {
+    "patient_id": "P004",
+    "predicted_urgency": "HIGH",
+    "reasoning": "The patient is experiencing a seizure, which is a potentially serious medical condition requiring immediate evaluation. Given the patient's young age and lack of known medical history, it is important to determine the cause of the seizure and rule out any life-threatening conditions. Seizures can be indicative of various underlying issues, including neurological disorders, infections, or metabolic imbalances, and therefore warrant prompt medical attention."
+  },
+  "triage:a0503ee3ed871ebf5321f286d1e2b98f": {
+    "patient_id": "P025",
+    "predicted_urgency": "LOW",
+    "reasoning": "The patient is young and presents with slight dizziness and a minor laceration, both of which are generally not life-threatening. There is no known medical history that suggests underlying conditions that could complicate these symptoms. However, the patient should be monitored for any changes in symptoms."
+  },
+  "triage:9e02d6a4fb72632949216116b09e2567": {
+    "patient_id": "P060",
+    "predicted_urgency": "HIGH",
+    "reasoning": "The patient has severe head trauma, which is a critical condition that requires immediate medical attention. The minor burn and slight dizziness are less urgent but do not mitigate the need for urgent care due to the head injury."
+  },
+  "triage:8ef8e433ddc42f5b76554acf855df654": {
+    "patient_id": "P041",
+    "predicted_urgency": "MEDIUM",
+    "reasoning": "The patient is experiencing a high fever (102-104F), which indicates a significant infection or illness that requires evaluation. However, the absence of other severe symptoms (e.g., difficulty breathing, chest pain, altered mental status) suggests that while the situation is concerning, it may not be immediately life-threatening."
+  },
+  "triage:1ad32c71176e0d7058c420fe17a3b3dd": {
+    "patient_id": "P026",
+    "predicted_urgency": "HIGH",
+    "reasoning": "The patient is experiencing a seizure, which is a medical emergency, especially in a child. Additionally, the presence of a minor burn and moderate pain, combined with a history of being on blood thinners, increases the risk of complications. Immediate medical evaluation is necessary."
+  },
+  "triage:26157ca60738e580577776b8a6fd7891": {
+    "patient_id": "P050",
+    "predicted_urgency": "HIGH",
+    "reasoning": "The patient is unconscious, which is a critical condition requiring immediate medical attention. Additionally, the patient has a history of severe asthma, which could complicate the situation further. The minor burn is less concerning compared to the unconscious state and asthma history, but the combination of these factors necessitates a high urgency classification."
+  },
+  "triage:fb27352883930d28a03fee2365107839": {
+    "patient_id": "P060",
+    "predicted_urgency": "HIGH",
+    "reasoning": "The presence of severe head trauma is a critical condition that requires immediate medical attention due to the potential for life-threatening complications such as brain injury, bleeding, or swelling. The minor burn and slight dizziness are less concerning but do not diminish the urgency created by the head trauma. Additionally, the patient's well-controlled diabetes does not significantly alter the urgency level in this context."
+  },
+  "triage:035694b8ae6356634a51b9d330db63c9": {
+    "patient_id": "P055",
+    "predicted_urgency": "HIGH",
+    "reasoning": "The patient is unconscious, which is a critical condition requiring immediate medical attention, especially given the patient's advanced age. Unconsciousness can be indicative of a serious underlying issue such as a stroke, cardiac event, or other acute medical emergencies."
+  },
+  "triage:bb30c68ca84d85802eb0bad322fac847": {
+    "patient_id": "P050",
+    "predicted_urgency": "HIGH",
+    "reasoning": "The patient is unconscious, which is a critical condition that requires immediate medical attention. Additionally, the patient's history of severe asthma may complicate their situation, potentially leading to respiratory distress or failure."
+  },
+  "triage:5e7de45a0012361a0c01646b5ee304e2": {
+    "patient_id": "P005",
+    "predicted_urgency": "HIGH",
+    "reasoning": "Vomiting blood (hematemesis) is a serious symptom that can indicate a life-threatening condition, such as gastrointestinal bleeding. Given the patient's age and history of heart disease, immediate medical evaluation and intervention are critical."
+  },
+  "triage:9f41f882628bf7ac9a14a1b92a1f450d": {
+    "patient_id": "P038",
+    "predicted_urgency": "HIGH",
+    "reasoning": "The patient is experiencing severe chest pain, which could be indicative of a serious condition such as a heart attack. Given the patient's age and the severity of the symptom, this situation requires immediate medical attention. The minor burn is less concerning but does not diminish the urgency created by the chest pain."
+  },
+  "triage:4a65fdc7338a25229e916c21a7142b33": {
+    "patient_id": "P038",
+    "predicted_urgency": "HIGH",
+    "reasoning": "The patient is experiencing severe chest pain, which could indicate a serious condition such as a heart attack or other cardiovascular issues. The minor burn is less concerning in comparison, but the chest pain necessitates immediate medical evaluation."
+  },
+  "triage:1d771453c652180f01795168bcf6531c": {
+    "patient_id": "P057",
+    "predicted_urgency": "HIGH",
+    "reasoning": "The patient is experiencing severe chest pain and is unconscious, which are critical symptoms that could indicate a life-threatening condition such as a heart attack or stroke. Immediate medical attention is necessary to assess and address these symptoms. The slight dizziness, although less severe, further supports the need for urgent evaluation given the patient's age and symptom presentation."
+  },
+  "triage:9920e71a9aae390e6bb0b5fe91c1cf3c": {
+    "patient_id": "P055",
+    "predicted_urgency": "HIGH",
+    "reasoning": "The patient is 86 years old and is unconscious, which is a critical condition that requires immediate medical attention to determine the cause and initiate appropriate treatment."
+  },
+  "triage:87ca21224fe1ace6ecb076a0766ca26e": {
+    "patient_id": "P011",
+    "predicted_urgency": "HIGH",
+    "reasoning": "The patient is experiencing unconsciousness, seizures, and severe bleeding, all of which are life-threatening conditions that require immediate medical attention. Unconsciousness and seizures can indicate serious neurological issues, while severe bleeding can lead to shock and organ failure. The combination of these symptoms necessitates urgent intervention to stabilize the patient and prevent further complications."
+  },
+  "triage:f2b933b7bd1ba346eb73d338a486d2cf": {
+    "patient_id": "P041",
+    "predicted_urgency": "MEDIUM",
+    "reasoning": "The patient is experiencing a high fever, which can indicate an underlying infection or illness that requires medical attention. However, there are no additional symptoms or medical history that suggest an immediate life-threatening condition. The high cholesterol is not directly related to the fever and does not increase the urgency. It is advisable for the patient to seek medical evaluation to determine the cause of the fever and receive appropriate treatment."
+  },
+  "triage:b306612b7c8e09dd8b6a581461b6417d": {
+    "patient_id": "P057",
+    "predicted_urgency": "HIGH",
+    "reasoning": "The patient is experiencing severe chest pain and is unconscious, which are critical symptoms that may indicate a life-threatening condition such as a heart attack or other cardiovascular emergency. Immediate medical attention is required."
+  },
+  "triage:80e1d4ee0c8deca353c70560497d897a": {
+    "patient_id": "P022",
+    "predicted_urgency": "HIGH",
+    "reasoning": "The patient is experiencing difficulty breathing, which is a potentially life-threatening symptom that requires immediate medical attention. The combination of respiratory distress with other symptoms like dizziness and a rash raises concern for an allergic reaction or other serious condition."
+  },
+  "triage:93d996968fbfb1d2ed27fac467866d4d": {
+    "patient_id": "P031",
+    "predicted_urgency": "HIGH",
+    "reasoning": "The patient is experiencing severe bleeding, which is a critical condition that requires immediate medical attention. Additionally, the patient is an organ transplant recipient, which complicates the situation due to potential immunosuppression and increased risk of complications. The combination of severe bleeding and the patient's medical history necessitates a high urgency classification."
+  },
+  "triage:6821d1732176975c346f46281f746aea": {
+    "patient_id": "P013",
+    "predicted_urgency": "HIGH",
+    "reasoning": "The patient has severe head trauma and difficulty breathing, both of which are critical conditions that require immediate medical attention to prevent further injury or potential loss of life."
+  },
+  "triage:75562c92b0cb3d561e290aabfd4443dd": {
+    "patient_id": "P047",
+    "predicted_urgency": "HIGH",
+    "reasoning": "Difficulty breathing is a potentially life-threatening symptom that requires immediate medical evaluation to rule out serious conditions such as respiratory distress, asthma attack, or anaphylaxis, especially in a patient with no known medical history."
+  },
+  "triage:554089a87ea93e1867a7a4d5462636db": {
+    "patient_id": "P044",
+    "predicted_urgency": "HIGH",
+    "reasoning": "The patient is experiencing severe bleeding and severe head trauma, which are critical conditions that require immediate medical attention to prevent life-threatening complications."
+  },
+  "triage:ecbc14accff46b096f0b28d44695922f": {
+    "patient_id": "P016",
+    "predicted_urgency": "HIGH",
+    "reasoning": "The patient is experiencing difficulty breathing and has severe head trauma, both of which are critical conditions that require immediate medical attention. The combination of respiratory distress and significant head injury poses a high risk for life-threatening complications."
+  },
+  "triage:113db061881d805cd1758f82ce9b1006": {
+    "patient_id": "P027",
+    "predicted_urgency": "HIGH",
+    "reasoning": "The patient is experiencing severe bleeding, which is a critical condition that requires immediate medical attention. While the other symptoms (mild nausea, minor laceration, minor burn) are less urgent, the presence of severe bleeding elevates the overall urgency level."
+  },
+  "triage:19acc36db122032f6d10877fbabb089c": {
+    "patient_id": "P016",
+    "predicted_urgency": "HIGH",
+    "reasoning": "The patient is experiencing difficulty breathing and has severe head trauma, both of which are potentially life-threatening conditions that require immediate medical attention. Difficulty breathing can indicate compromised airway or respiratory function, and severe head trauma can lead to serious complications such as brain injury or bleeding. These symptoms necessitate urgent evaluation and intervention."
+  },
+  "triage:52d417e4fa0bb608318c6a09d461df9d": {
+    "patient_id": "P022",
+    "predicted_urgency": "HIGH",
+    "reasoning": "The presence of difficulty breathing is a potentially life-threatening symptom that requires immediate medical attention. While the other symptoms such as minor burn, slight dizziness, and mild rash are less concerning on their own, the combination with respiratory difficulty elevates the urgency level to high."
+  },
+  "triage:62a7967d1fa6517f31941ec149d07270": {
+    "patient_id": "P047",
+    "predicted_urgency": "HIGH",
+    "reasoning": "Difficulty breathing can indicate a serious condition such as anaphylaxis, asthma exacerbation, or respiratory infection. Immediate evaluation and intervention are necessary to prevent potential respiratory failure."
+  },
+  "triage:a5749474376b35d66556f02c95b9bd9c": {
+    "patient_id": "P032",
+    "predicted_urgency": "HIGH",
+    "reasoning": "The patient is 86 years old and has experienced severe head trauma, which is a critical condition that requires immediate medical attention. Additionally, the patient's history of heart disease increases the risk of complications, making it essential to address the head trauma urgently."
+  },
+  "triage:807e37000b04c3a9176597c0ff90477a": {
+    "patient_id": "P015",
+    "predicted_urgency": "HIGH",
+    "reasoning": "The patient is experiencing a seizure and difficulty breathing, both of which are critical symptoms that require immediate medical attention. The combination of these symptoms in a 70-year-old patient raises significant concern for potential life-threatening conditions."
+  },
+  "triage:08e3bad1b90894c310ac35e0c5d70dd4": {
+    "patient_id": "P001",
+    "predicted_urgency": "HIGH",
+    "reasoning": "Severe bleeding in a 1-year-old child is a critical situation that requires immediate medical attention due to the risk of rapid blood loss and potential shock."
+  },
+  "triage:1e7356162ffea4c7432ac18ac28a6214": {
+    "patient_id": "P037",
+    "predicted_urgency": "HIGH",
+    "reasoning": "The patient is experiencing severe chest pain and unconsciousness, which are critical symptoms, especially given the recent heart surgery. These symptoms could indicate a life-threatening condition such as a heart attack or complications from the surgery, requiring immediate medical attention."
+  },
+  "triage:67536e23dc950c8035a4db4d3396981a": {
+    "patient_id": "P030",
+    "predicted_urgency": "HIGH",
+    "reasoning": "The patient is experiencing severe chest pain, severe bleeding, and is unconscious, all of which are critical symptoms that require immediate medical attention. Additionally, the patient's history of severe asthma could complicate the situation further. These factors combined indicate a life-threatening condition that necessitates urgent intervention."
+  },
+  "triage:555a8d9dbb2c1740192b10ea57535713": {
+    "patient_id": "P051",
+    "predicted_urgency": "HIGH",
+    "reasoning": "The combination of difficulty breathing and high fever indicates a potentially serious condition that requires immediate medical attention. Difficulty breathing can be a sign of respiratory distress or infection, and a high fever suggests a significant underlying infection or inflammatory process. These symptoms together elevate the urgency level to high, despite the minor laceration."
+  },
+  "triage:af5f435285b77818deef043ba23c182a": {
+    "patient_id": "P025",
+    "predicted_urgency": "LOW",
+    "reasoning": "The patient is 27 years old with slight dizziness and a minor laceration. There are no concerning medical history or severe symptoms that would indicate a high level of urgency. The dizziness is slight and may not be indicative of a serious condition, and the laceration is described as minor."
+  },
+  "triage:05fe43009c1ee1be4e264f237f0413f2": {
+    "patient_id": "P039",
+    "predicted_urgency": "HIGH",
+    "reasoning": "The patient is experiencing difficulty breathing, which is a potentially life-threatening symptom that requires immediate medical attention. While the nausea is mild, the breathing issue takes precedence in determining urgency. The patient's history of high cholesterol does not directly impact the immediate urgency but should be considered in the overall assessment."
+  },
+  "triage:c31a3719a2d087defe4f4ae87cbfbadc": {
+    "patient_id": "P059",
+    "predicted_urgency": "LOW",
+    "reasoning": "The patient has a minor burn and a well-controlled diabetes history, which typically does not elevate the urgency unless there are signs of infection or complications. Minor burns can usually be managed with basic first aid."
+  },
+  "triage:a6b796e30a48ff7852043469d1d58c0d": {
+    "patient_id": "P028",
+    "predicted_urgency": "MEDIUM",
+    "reasoning": "The patient is experiencing slight dizziness and moderate pain, which could indicate an underlying issue that needs attention, especially given the patient's age. The minor burn should be assessed to prevent infection or complications. While the symptoms are not immediately life-threatening, they warrant timely medical evaluation to rule out any serious conditions."
+  },
+  "triage:8feb32970cdb511b24c0aaa02a862a2b": {
+    "patient_id": "P009",
+    "predicted_urgency": "HIGH",
+    "reasoning": "The patient is a 2-year-old child who is unconscious and experiencing severe bleeding. Both symptoms are life-threatening and require immediate medical attention. Unconsciousness in a young child can indicate a serious underlying condition, and severe bleeding can lead to rapid deterioration due to blood loss. Immediate intervention is necessary to stabilize the patient and prevent further complications."
+  },
+  "triage:53ee7019372545f43879cf23f739d72d": {
+    "patient_id": "P028",
+    "predicted_urgency": "MEDIUM",
+    "reasoning": "The patient is 66 years old and experiencing slight dizziness along with moderate pain from a minor burn. While the burn itself may not be severe, the combination of dizziness and age raises concerns for potential underlying issues such as dehydration, infection, or cardiovascular problems. Immediate evaluation is recommended, but it does not constitute a life-threatening emergency."
+  },
+  "triage:3654c2398ff91c6cbbbcbc9de724fa88": {
+    "patient_id": "P052",
+    "predicted_urgency": "HIGH",
+    "reasoning": "The patient is 71 years old and presents with difficulty breathing and unconsciousness, which are critical symptoms indicating a potential life-threatening condition. The mild rash may suggest an allergic reaction or other serious underlying issue. Immediate medical attention is required."
+  },
+  "triage:bf6f251f8542ef26e2238a33c402fb4b": {
+    "patient_id": "P035",
+    "predicted_urgency": "HIGH",
+    "reasoning": "The patient is experiencing a seizure and difficulty breathing, both of which are critical symptoms that require immediate medical attention. Seizures can indicate serious underlying conditions, and difficulty breathing poses an immediate risk to life."
+  },
+  "triage:cd7a665d131e7bef49658b2e56cbd3d3": {
+    "patient_id": "P003",
+    "predicted_urgency": "HIGH",
+    "reasoning": "The patient is experiencing severe chest pain and severe bleeding, both of which are critical symptoms that require immediate medical attention. In a 7-year-old child, these symptoms could indicate a life-threatening condition such as trauma, internal injury, or a cardiovascular issue. Prompt evaluation and intervention are necessary to prevent serious complications."
+  },
+  "triage:69b60cca1cd7fcb83fd5152e00f03217": {
+    "patient_id": "P011",
+    "predicted_urgency": "HIGH",
+    "reasoning": "The patient is unconscious, experiencing seizures, and has severe bleeding, which are all critical conditions that require immediate medical attention to prevent life-threatening complications."
+  },
+  "triage:68b42005047cd82e8460028a8dbe7f5f": {
+    "patient_id": "P006",
+    "predicted_urgency": "HIGH",
+    "reasoning": "The patient is experiencing a high fever and difficulty breathing, which are concerning symptoms that could indicate a serious condition such as pneumonia, COVID-19, or another respiratory infection. Given the patient's age and the potential for rapid deterioration, immediate medical evaluation is necessary."
+  },
+  "triage:df1480ad6cb58279b12a05efa62a171b": {
+    "patient_id": "P023",
+    "predicted_urgency": "MEDIUM",
+    "reasoning": "The patient is elderly and on blood thinners, which can complicate even mild symptoms. Moderate pain in an older adult warrants attention, especially with the added risk of bleeding complications due to blood thinners. While the symptoms are not immediately life-threatening, they require timely evaluation to rule out any serious underlying conditions."
+  },
+  "triage:207dc4e4ecf8dcb3e37ea491df00a9a3": {
+    "patient_id": "P048",
+    "predicted_urgency": "HIGH",
+    "reasoning": "The patient is exhibiting signs of a potential stroke (sudden weakness, slurred speech) and gastrointestinal bleeding (vomiting blood), both of which are medical emergencies that require immediate attention."
+  },
+  "triage:b519a8c906b5122e372ca842288cee5a": {
+    "patient_id": "P033",
+    "predicted_urgency": "HIGH",
+    "reasoning": "The patient is experiencing sudden weakness, slurred speech, and slight dizziness, which are concerning symptoms that could indicate a neurological event such as a stroke. Given the age of the patient and the acute nature of the symptoms, immediate medical evaluation is critical."
+  },
+  "triage:a70d43de8bfa0c65dcd9bd9869407312": {
+    "patient_id": "P018",
+    "predicted_urgency": "HIGH",
+    "reasoning": "The patient is experiencing a seizure, which is a potentially life-threatening condition that requires immediate medical evaluation and intervention. The absence of a known medical history increases the need for urgent assessment to determine the underlying cause and prevent further complications."
+  },
+  "triage:a5ca8acc83b3c58926cd8bfc7370d86f": {
+    "patient_id": "P034",
+    "predicted_urgency": "HIGH",
+    "reasoning": "The patient is a young child who is vomiting blood and is unconscious, both of which are critical symptoms. Additionally, the recent heart surgery increases the risk of complications. These factors combined indicate a potentially life-threatening situation requiring immediate medical attention."
+  },
+  "triage:ad023cbcf74516b4ce442c79b0441bf8": {
+    "patient_id": "P039",
+    "predicted_urgency": "HIGH",
+    "reasoning": "The patient is experiencing difficulty breathing, which can indicate a potentially serious condition such as an allergic reaction, asthma exacerbation, or other respiratory issues. Mild nausea may be a secondary symptom, but the primary concern is the difficulty breathing, warranting immediate medical attention."
+  },
+  "triage:4235d0ebe8d96703dec31d18875f82b2": {
+    "patient_id": "P009",
+    "predicted_urgency": "HIGH",
+    "reasoning": "The patient is a 2-year-old child who is unconscious and experiencing severe bleeding, which indicates a life-threatening condition that requires immediate medical attention."
+  },
+  "triage:e863405e4f4b0824bd1cde6b626ec213": {
+    "patient_id": "P021",
+    "predicted_urgency": "HIGH",
+    "reasoning": "The combination of sudden weakness and slurred speech is concerning for a possible neurological event, such as a stroke, which requires immediate medical attention. The patient's history of severe asthma adds complexity, as respiratory issues could exacerbate the situation. The minor burn is less concerning but should be evaluated in the context of the other symptoms."
+  },
+  "triage:b9d2ac4323f74294553f11e6a1bfca5f": {
+    "patient_id": "P054",
+    "predicted_urgency": "HIGH",
+    "reasoning": "The patient is experiencing severe bleeding, which is a critical condition that requires immediate medical attention. The mild rash may be a secondary concern, but the priority is to address the severe bleeding."
+  },
+  "triage:036e8bcd011606944a08aa7a32eb9e3a": {
+    "patient_id": "P012",
+    "predicted_urgency": "HIGH",
+    "reasoning": "The patient is experiencing severe bleeding and vomiting blood, which are critical symptoms indicating potential life-threatening conditions such as internal bleeding or gastrointestinal hemorrhage. Immediate medical attention is required."
+  },
+  "triage:9fbf3eaff625edeaa1c34df3d6ac3967": {
+    "patient_id": "P052",
+    "predicted_urgency": "HIGH",
+    "reasoning": "The patient is experiencing difficulty breathing and is unconscious, which are both critical symptoms that require immediate medical attention. The combination of these symptoms, especially in an elderly patient, indicates a potentially life-threatening situation. The mild rash is less concerning but could be related to an allergic reaction or other condition contributing to the more severe symptoms."
+  },
+  "triage:0f5f936467dc079d35b402c8fa534bc2": {
+    "patient_id": "P046",
+    "predicted_urgency": "HIGH",
+    "reasoning": "The patient is experiencing vomiting blood and difficulty breathing, both of which are potentially life-threatening symptoms. Vomiting blood can indicate a serious condition such as gastrointestinal bleeding, and difficulty breathing can compromise oxygen intake. Immediate medical evaluation is necessary to determine the cause and provide appropriate treatment."
+  },
+  "triage:b77c7be0a89733d28bad5ff09fc211dc": {
+    "patient_id": "P037",
+    "predicted_urgency": "HIGH",
+    "reasoning": "The patient is 74 years old, has severe chest pain, is unconscious, and has a recent history of heart surgery. These factors indicate a potentially life-threatening condition, requiring immediate medical attention."
+  },
+  "triage:9411736eb87915cb0d7f77b68d7a6b0c": {
+    "patient_id": "P043",
+    "predicted_urgency": "LOW",
+    "reasoning": "The patient is young and experiencing only slight dizziness with no known medical history of concern. This symptom is often benign and can be caused by minor issues such as dehydration or a temporary drop in blood pressure. However, if symptoms persist or worsen, further evaluation may be necessary."
+  },
+  "triage:5bd37d60ee071c744c8afb8f2f5dc7d6": {
+    "patient_id": "P046",
+    "predicted_urgency": "HIGH",
+    "reasoning": "The patient is experiencing vomiting blood and difficulty breathing, which are both critical symptoms that indicate a potentially life-threatening condition. Immediate medical attention is necessary."
+  },
+  "triage:f39fff2e86901bedba3732383ed2edec": {
+    "patient_id": "P042",
+    "predicted_urgency": "MEDIUM",
+    "reasoning": "The patient is a young child with a minor burn and moderate pain, which requires evaluation to ensure there are no complications. Slight dizziness could indicate a more serious underlying issue, but without further symptoms, it does not warrant immediate high urgency."
+  },
+  "triage:795c5e8ff6ff953ca3d0ab1942f99a1c": {
+    "patient_id": "P020",
+    "predicted_urgency": "HIGH",
+    "reasoning": "The patient is experiencing severe chest pain, is unconscious, and has difficulty breathing, which are critical symptoms that could indicate a life-threatening condition such as a heart attack or severe respiratory distress. Immediate medical attention is required, especially given the patient's advanced age."
+  },
+  "triage:8d770308e7e4c97cd5e6a244f0c4acab": {
+    "patient_id": "P006",
+    "predicted_urgency": "HIGH",
+    "reasoning": "The patient is experiencing a high fever and difficulty breathing, which are concerning symptoms that may indicate a serious infection or respiratory issue. Given the patient's age and lack of medical history, immediate evaluation and intervention are warranted."
+  },
+  "triage:19b80bad9aba2f4a2f754c980f787b4f": {
+    "patient_id": "P031",
+    "predicted_urgency": "HIGH",
+    "reasoning": "The patient is 78 years old and presents with severe bleeding, which is a critical condition that requires immediate medical attention. Additionally, their history as an organ transplant recipient increases the risk of complications and necessitates urgent evaluation and intervention."
+  },
+  "triage:11b0d06b9955312810665814191441a1": {
+    "patient_id": "P045",
+    "predicted_urgency": "MEDIUM",
+    "reasoning": "The patient is a child with a high fever ranging from 102-104\u00b0F. While high fevers in children can be concerning, they are often caused by common viral infections. However, due to the patient's young age and the potential for rapid deterioration or complications, it is important to monitor the child closely and seek medical evaluation to rule out serious conditions. Immediate medical attention is not necessarily required unless other severe symptoms develop, but a healthcare provider should be consulted soon."
+  },
+  "triage:dc74904460a051958146f1bf6eafaffb": {
+    "patient_id": "P019",
+    "predicted_urgency": "HIGH",
+    "reasoning": "The patient is unconscious and has severe head trauma, which indicates a critical condition that requires immediate medical attention to prevent further injury or death."
+  },
+  "triage:7efd457d69114c3fde0d4756bf424c25": {
+    "patient_id": "P003",
+    "predicted_urgency": "HIGH",
+    "reasoning": "The patient is experiencing severe chest pain and severe bleeding, which are both critical symptoms that require immediate medical attention. The combination of these symptoms in a 7-year-old indicates a potentially life-threatening condition that necessitates urgent evaluation and intervention."
+  },
+  "triage:9a9b9fe374229e9d049442cb804a7663": {
+    "patient_id": "P045",
+    "predicted_urgency": "HIGH",
+    "reasoning": "An 8-year-old with a high fever of 102-104\u00b0F may indicate a serious infection or illness, especially given the absence of known medical history. Immediate evaluation is necessary to rule out potentially life-threatening conditions."
+  },
+  "triage:cb5ca66cc5f413bdfb404497563783f0": {
+    "patient_id": "P017",
+    "predicted_urgency": "MEDIUM",
+    "reasoning": "The patient is experiencing moderate pain with no known medical history. While the pain is not severe, it is important to assess the cause of the pain to rule out any underlying conditions. Therefore, it requires timely medical evaluation but is not immediately life-threatening."
+  },
+  "triage:1691d4eb196792180ddf3a28a2d60fa7": {
+    "patient_id": "P012",
+    "predicted_urgency": "HIGH",
+    "reasoning": "The patient is experiencing severe bleeding and vomiting blood, which are both potentially life-threatening symptoms. These symptoms could indicate a serious underlying condition such as gastrointestinal bleeding or a bleeding disorder. Immediate medical evaluation and intervention are necessary."
+  },
+  "triage:7247a54883720f3c7d142ddea641c5cc": {
+    "patient_id": "P017",
+    "predicted_urgency": "MEDIUM",
+    "reasoning": "The patient is experiencing moderate pain, which could indicate a variety of conditions that may require further evaluation. However, without additional symptoms or a known medical history, it does not appear to be an immediate life-threatening situation."
+  },
+  "triage:02f1a45965bdb6addd65edfba71b6b51": {
+    "patient_id": "P032",
+    "predicted_urgency": "HIGH",
+    "reasoning": "The patient is 86 years old with severe head trauma and a history of heart disease. Severe head trauma in elderly patients can lead to serious complications such as intracranial bleeding, and the history of heart disease increases the risk of adverse outcomes. Immediate medical evaluation is necessary."
+  },
+  "triage:2ba36ecacf5de55c1811476241b9107a": {
+    "patient_id": "P008",
+    "predicted_urgency": "HIGH",
+    "reasoning": "The patient is experiencing a high fever combined with severe bleeding, which can indicate a serious underlying condition that requires immediate medical attention. The combination of these symptoms poses a significant risk to the patient's health and could be life-threatening."
+  },
+  "triage:ed6c7b1030cbcb6c7a256b5617286b01": {
+    "patient_id": "P001",
+    "predicted_urgency": "HIGH",
+    "reasoning": "The patient is an infant experiencing severe bleeding, which can quickly lead to life-threatening complications such as hypovolemic shock due to their small blood volume. Immediate medical attention is necessary to control the bleeding and prevent further complications."
+  },
+  "triage:a4f085ae039e859a49658f71e273ca9c": {
+    "patient_id": "P024",
+    "predicted_urgency": "LOW",
+    "reasoning": "The patient's symptoms, including a mild rash, minor burn, and slight dizziness, are not immediately life-threatening. The patient's diabetes is well-controlled, which reduces the risk of complications. However, the symptoms should be monitored, and the patient should seek medical advice if they worsen or persist."
+  }
+}

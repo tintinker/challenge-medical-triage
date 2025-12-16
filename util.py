@@ -1,38 +1,36 @@
 import os
-import redis
 import json
 import hashlib
-from typing import Any, Optional
+from typing import Any, Optional, Dict
+from pathlib import Path
 
 
 def retrieve_cache(
-    redis_client: Optional[redis.Redis],
+    cache_data: Optional[Dict],
     cache_key_data: str,
 ) -> Optional[Any]:
     """
     Retrieve a value from cache.
 
     Args:
-        redis_client: Redis client (can be None for no caching)
+        cache_data: Dictionary containing cache data (can be None for no caching)
         cache_key_data: String to hash for the cache key
 
     Returns:
         The cached value if found, None otherwise
 
     Example:
-        cached = retrieve_cache(self.redis, f"{self.model}|{case.age}|{case.symptoms}")
+        cached = retrieve_cache(self.cache, f"{self.model}|{case.age}|{case.symptoms}")
         if cached is not None:
             return cached, True
     """
-    if not redis_client:
+    if not cache_data:
         return None
 
     cache_key = f"triage:{hashlib.md5(cache_key_data.encode()).hexdigest()}"
 
     try:
-        cached = redis_client.get(cache_key)
-        if cached:
-            return json.loads(cached)  # type: ignore
+        return cache_data.get(cache_key)
     except Exception as e:
         print(f"Cache read error: {e}")
 
@@ -40,7 +38,7 @@ def retrieve_cache(
 
 
 def store_cache(
-    redis_client: Optional[redis.Redis],
+    cache_data: Optional[Dict],
     cache_key_data: str,
     result: Any,
     ttl: Optional[int] = None,
@@ -49,46 +47,56 @@ def store_cache(
     Store a value in cache.
 
     Args:
-        redis_client: Redis client (can be None for no caching)
+        cache_data: Dictionary containing cache data (can be None for no caching)
         cache_key_data: String to hash for the cache key
         result: The value to cache
-        ttl: Time to live in seconds. If None, cache never expires
+        ttl: Time to live in seconds (ignored for file-based cache)
 
     Example:
-        store_cache(self.redis, f"{self.model}|{case.age}", result, ttl=None)
+        store_cache(self.cache, f"{self.model}|{case.age}", result, ttl=None)
     """
-    if not redis_client:
+    if not cache_data:
         return
 
     cache_key = f"triage:{hashlib.md5(cache_key_data.encode()).hexdigest()}"
 
     try:
-        if ttl is None:
-            redis_client.set(cache_key, json.dumps(result))
-        else:
-            redis_client.setex(cache_key, ttl, json.dumps(result))
+        cache_data[cache_key] = result
     except Exception as e:
         print(f"Cache write error: {e}")
 
 
-def get_api_key_and_redis_client():
+def load_cache_from_file(cache_file: str = "cache.json") -> Optional[Dict]:
+    """
+    Load cache from a JSON file.
+
+    Args:
+        cache_file: Path to the cache file
+
+    Returns:
+        Dictionary containing cache data, or None if file doesn't exist
+    """
+    cache_path = Path(cache_file)
+    if not cache_path.exists():
+        print(f"Cache file {cache_file} not found")
+        return None
+
+    try:
+        with open(cache_path, "r") as f:
+            cache_data = json.load(f)
+        print(f"Loaded cache from {cache_file} ({len(cache_data)} entries)")
+        return cache_data
+    except Exception as e:
+        print(f"Error loading cache file: {e}")
+        return None
+
+
+def get_api_key_and_cache():
     api_key = os.getenv("OPENAI_API_KEY")
     if not api_key:
         print("Set OPENAI_API_KEY environment variable")
         exit(1)
 
-    redis_host = os.getenv("REDIS_HOST", "localhost")
-    redis_port = int(os.getenv("REDIS_PORT", "6379"))
+    cache_data = load_cache_from_file("cache.json")
 
-    try:
-        redis_client = redis.Redis(
-            host=redis_host, port=redis_port, decode_responses=True
-        )
-        redis_client.ping()
-        print(f"Connected to Redis at {redis_host}:{redis_port}")
-    except Exception as e:
-        print(f"Redis not available: {e}")
-        print("Running without cache")
-        redis_client = None
-
-    return api_key, redis_client
+    return api_key, cache_data
