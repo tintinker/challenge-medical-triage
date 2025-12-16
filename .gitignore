@@ -1,4 +1,5 @@
 .DS_Store
 __pycache__
 uv.lock
-redis_data/**
+redis_data/*
+.venv/

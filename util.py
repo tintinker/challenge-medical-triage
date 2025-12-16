@@ -32,7 +32,7 @@ def retrieve_cache(
     try:
         cached = redis_client.get(cache_key)
         if cached:
-            return json.loads(cached)
+            return json.loads(cached)  # type: ignore
     except Exception as e:
         print(f"Cache read error: {e}")
 

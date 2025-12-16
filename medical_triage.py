@@ -67,7 +67,7 @@ class MedicalTriageSystem:
         # Try to retrieve from cache
         if cached_result := retrieve_cache(self.redis, cache_key):
             return cached_result, True
-        
+
         # Cache miss - generate result by calling the API
         prompt = self.prompt_template.format(
             age=case.age, symptoms=case.symptoms, medical_history=case.medical_history
@@ -100,29 +100,37 @@ class MedicalTriageSystem:
 
         return result, False
 
+
 def evaluate(system: MedicalTriageSystem, cases: List[TriageCase]):
     num_correct = 0
     total = len(cases)
 
     for case in cases:
-        result, cache_hit = system.analyze_case(case)
-        result = TriageResult.model_validate(result)
+        result_dict, cache_hit = system.analyze_case(case)
+        result = TriageResult.model_validate(result_dict)
         is_correct = result.predicted_urgency == case.urgency_level
-        num_correct += 1 if is_correct else 0
-
         cache_status = "[CACHED]" if cache_hit else ""
+
         print(
             f"{case.patient_id}: {result.predicted_urgency} (actual: {case.urgency_level}) {'✓' if is_correct else '✗'} {cache_status}"
         )
 
+        num_correct += 1 if is_correct else 0
+
     print(f"\nAccuracy: {num_correct / total:.1%} ({num_correct}/{total})")
 
 
-def main(filename: str):
+def main(
+    test_cases_filename: str,
+    model: str = "gpt-4o-mini",
+    prompt_template: str = PROMPT_TEMPLATE,
+):
     api_key, redis_client = get_api_key_and_redis_client()
-    system = MedicalTriageSystem(api_key, redis_client=redis_client)
+    system = MedicalTriageSystem(
+        api_key, prompt_template=prompt_template, model=model, redis_client=redis_client
+    )
 
-    with open(Path(__file__).parent / filename, "r") as f:
+    with open(Path(__file__).parent / test_cases_filename, "r") as f:
         cases = [TriageCase.model_validate_json(line) for line in f]
 
     print("Evaluating triage system...")
@@ -130,4 +138,4 @@ def main(filename: str):
 
 
 if __name__ == "__main__":
-    main(filename="test_cases/train.jsonl")
+    main(test_cases_filename="test_cases/train.jsonl")
