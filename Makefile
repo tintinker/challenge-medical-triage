@@ -1,11 +1,12 @@
 .PHONY: up lint
 
-up:
-	@if ! command -v docker-compose &> /dev/null; then \
-		echo "Docker is not installed. Download Docker Desktop at https://www.docker.com/get-started/"; \
-		exit 1; \
+run:
+	@if ! command -v uv &> /dev/null; then \
+		echo "Installing uv..."; \
+		curl -LsSf https://astral.sh/uv/install.sh | sh; \
 	fi
-	docker-compose up --build
+	uv run python medical_triage.py
+
 
 lint:
 	@if ! command -v uv &> /dev/null; then \
