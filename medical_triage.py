@@ -39,6 +39,14 @@ class TriageResult(BaseModel):
     reasoning: str = "No reasoning provided"
 
 
+class TrackedEval(BaseModel):
+    prompt_template: str
+    model: str
+    accuracy: float
+    num_correct: int
+    total: int
+
+
 class MedicalTriageSystem:
     def __init__(
         self,
@@ -118,12 +126,14 @@ def evaluate(system: MedicalTriageSystem, cases: List[TriageCase]):
         num_correct += 1 if is_correct else 0
 
     print(f"\nAccuracy: {num_correct / total:.1%} ({num_correct}/{total})")
+    return num_correct
 
 
 def main(
-    test_cases_filename: str,
+    test_cases_filename: str = "test_cases/train.jsonl",
     model: str = "gpt-4o-mini",
     prompt_template: str = PROMPT_TEMPLATE,
+    tracker_filename: str = "tracker.csv",
 ):
     api_key, redis_client = get_api_key_and_redis_client()
     system = MedicalTriageSystem(
@@ -133,9 +143,11 @@ def main(
     with open(Path(__file__).parent / test_cases_filename, "r") as f:
         cases = [TriageCase.model_validate_json(line) for line in f]
 
-    print("Evaluating triage system...")
     evaluate(system, cases)
 
 
 if __name__ == "__main__":
-    main(test_cases_filename="test_cases/train.jsonl")
+    main(test_cases_filename="test_cases/train.jsonl", model="gpt-4o-mini")
+    main(test_cases_filename="test_cases/eval.jsonl", model="gpt-4o-mini")
+    main(test_cases_filename="test_cases/train.jsonl", model="gpt-4o")
+    main(test_cases_filename="test_cases/eval.jsonl", model="gpt-4o")

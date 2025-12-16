@@ -1,20 +1,20 @@
-{"patient_id": "P001", "age": 65, "symptoms": "Severe chest pain, shortness of breath, nausea", "medical_history": "History of heart disease", "urgency_level": "HIGH", "explanation": ""}
-{"patient_id": "P002", "age": 34, "symptoms": "Unconscious, seizure witnessed by family", "medical_history": "No known medical history", "urgency_level": "HIGH", "explanation": ""}
-{"patient_id": "P003", "age": 28, "symptoms": "Severe abdominal pain, vomiting blood", "medical_history": "No medical history", "urgency_level": "HIGH", "explanation": ""}
-{"patient_id": "P004", "age": 72, "symptoms": "Sudden severe headache, vision changes, confusion", "medical_history": "Hypertension", "urgency_level": "HIGH", "explanation": ""}
-{"patient_id": "P005", "age": 45, "symptoms": "Difficulty breathing, chest tightness, dizziness", "medical_history": "Asthma", "urgency_level": "HIGH", "explanation": ""}
-{"patient_id": "P006", "age": 55, "symptoms": "Moderate chest discomfort, mild shortness of breath", "medical_history": "High cholesterol", "urgency_level": "MEDIUM", "explanation": ""}
-{"patient_id": "P007", "age": 67, "symptoms": "Persistent cough with blood, weight loss", "medical_history": "Former smoker", "urgency_level": "MEDIUM", "explanation": ""}
-{"patient_id": "P008", "age": 42, "symptoms": "Severe headache for 3 days, sensitivity to light", "medical_history": "Migraines", "urgency_level": "MEDIUM", "explanation": ""}
-{"patient_id": "P009", "age": 38, "symptoms": "High fever 103F, severe sore throat, difficulty swallowing", "medical_history": "No medical history", "urgency_level": "MEDIUM", "explanation": ""}
-{"patient_id": "P010", "age": 29, "symptoms": "Suspected broken arm after fall, severe pain", "medical_history": "No medical history", "urgency_level": "MEDIUM", "explanation": ""}
-{"patient_id": "P011", "age": 25, "symptoms": "Mild headache, runny nose, low grade fever", "medical_history": "No medical history", "urgency_level": "LOW", "explanation": ""}
-{"patient_id": "P012", "age": 31, "symptoms": "Minor cut on hand, bleeding stopped", "medical_history": "No medical history", "urgency_level": "LOW", "explanation": ""}
-{"patient_id": "P013", "age": 43, "symptoms": "Routine prescription refill, feeling well", "medical_history": "Diabetes on medication", "urgency_level": "LOW", "explanation": ""}
-{"patient_id": "P014", "age": 56, "symptoms": "Annual physical exam, no complaints", "medical_history": "Healthy", "urgency_level": "LOW", "explanation": ""}
-{"patient_id": "P015", "age": 22, "symptoms": "Sprained ankle yesterday, mild pain", "medical_history": "No medical history", "urgency_level": "LOW", "explanation": ""}
-{"patient_id": "P016", "age": 85, "symptoms": "Feeling tired, mild confusion", "medical_history": "Dementia, multiple medications", "urgency_level": "MEDIUM", "explanation": ""}
-{"patient_id": "P017", "age": 2, "symptoms": "Fever 101F, fussy, not eating well", "medical_history": "Healthy toddler", "urgency_level": "HIGH", "explanation": ""}
-{"patient_id": "P018", "age": 35, "symptoms": "Anxiety, heart racing, sweating", "medical_history": "Panic disorder", "urgency_level": "LOW", "explanation": ""}
-{"patient_id": "P019", "age": 60, "symptoms": "Fell, no injury visible, feeling okay", "medical_history": "On blood thinners", "urgency_level": "MEDIUM", "explanation": ""}
-{"patient_id": "P020", "age": 40, "symptoms": "Stomach pain, nausea", "medical_history": "Recent travel to developing country", "urgency_level": "MEDIUM", "explanation": ""}
+{"patient_id": "P001", "age": 1, "symptoms": "Severe bleeding", "medical_history": "No known medical history", "urgency_level": "HIGH", "explanation": ""}
+{"patient_id": "P002", "age": 29, "symptoms": "Moderate pain, Unconscious, Severe head trauma", "medical_history": "History of heart disease", "urgency_level": "HIGH", "explanation": ""}
+{"patient_id": "P003", "age": 7, "symptoms": "Severe chest pain, Moderate pain, Severe bleeding", "medical_history": "No significant history", "urgency_level": "HIGH", "explanation": ""}
+{"patient_id": "P004", "age": 25, "symptoms": "Seizure", "medical_history": "No known medical history", "urgency_level": "MEDIUM", "explanation": ""}
+{"patient_id": "P005", "age": 61, "symptoms": "Vomiting blood", "medical_history": "History of heart disease", "urgency_level": "HIGH", "explanation": ""}
+{"patient_id": "P006", "age": 57, "symptoms": "High fever (102-104F), Difficulty breathing", "medical_history": "No known medical history", "urgency_level": "MEDIUM", "explanation": ""}
+{"patient_id": "P007", "age": 15, "symptoms": "Unconscious, Moderate pain", "medical_history": "No known medical history", "urgency_level": "HIGH", "explanation": ""}
+{"patient_id": "P008", "age": 51, "symptoms": "High fever (102-104F), Severe bleeding", "medical_history": "No known medical history", "urgency_level": "MEDIUM", "explanation": ""}
+{"patient_id": "P009", "age": 2, "symptoms": "Unconscious, Severe bleeding", "medical_history": "No known medical history", "urgency_level": "HIGH", "explanation": ""}
+{"patient_id": "P010", "age": 13, "symptoms": "Vomiting blood, Seizure, High fever (102-104F)", "medical_history": "Diabetes", "urgency_level": "HIGH", "explanation": ""}
+{"patient_id": "P011", "age": 53, "symptoms": "Unconscious, Seizure, Severe bleeding", "medical_history": "No known medical history", "urgency_level": "MEDIUM", "explanation": ""}
+{"patient_id": "P012", "age": 25, "symptoms": "Moderate pain, Severe bleeding, Vomiting blood", "medical_history": "No known medical history", "urgency_level": "MEDIUM", "explanation": ""}
+{"patient_id": "P013", "age": 8, "symptoms": "Severe head trauma, Difficulty breathing", "medical_history": "No known medical history", "urgency_level": "HIGH", "explanation": ""}
+{"patient_id": "P014", "age": 7, "symptoms": "Vomiting blood, Severe bleeding, Sudden weakness, slurred speech", "medical_history": "No known medical history", "urgency_level": "HIGH", "explanation": ""}
+{"patient_id": "P015", "age": 70, "symptoms": "Seizure, Difficulty breathing", "medical_history": "No known medical history", "urgency_level": "MEDIUM", "explanation": ""}
+{"patient_id": "P016", "age": 21, "symptoms": "Difficulty breathing, Severe head trauma, Moderate pain", "medical_history": "No known medical history", "urgency_level": "MEDIUM", "explanation": ""}
+{"patient_id": "P017", "age": 38, "symptoms": "Moderate pain", "medical_history": "No known medical history", "urgency_level": "LOW", "explanation": ""}
+{"patient_id": "P018", "age": 57, "symptoms": "Seizure", "medical_history": "No known medical history", "urgency_level": "MEDIUM", "explanation": ""}
+{"patient_id": "P019", "age": 30, "symptoms": "Unconscious, Severe head trauma, Moderate pain", "medical_history": "No known medical history", "urgency_level": "MEDIUM", "explanation": ""}
+{"patient_id": "P020", "age": 85, "symptoms": "Severe chest pain, Unconscious, Difficulty breathing", "medical_history": "No known medical history", "urgency_level": "HIGH", "explanation": ""}
