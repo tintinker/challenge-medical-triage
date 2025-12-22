@@ -4,8 +4,6 @@ AI-powered medical triage that classifies patient urgency as HIGH, MEDIUM, or LO
 
 ## Setup
 
-Download Docker: [https://www.docker.com/get-started](https://www.docker.com/get-started/)
-
 ```bash
 export OPENAI_API_KEY="your-key-here"
 make lint # Lint/formatting
@@ -21,7 +19,7 @@ make up # Run medical_traige.py
 
 ## Core Tasks
 
-1. Perform a tiny bit of EDA on the train data. Is there a relationship between age and urgency. What list of conditions are present?
+1. Perform a tiny bit of EDA on the train data. Is there a relationship between age and urgency? What list of conditions are present?
 2. Design a lightweight system to compare performance of different prompts or models (output: csv with columns: prompt, model, accuracy)
 3. Use prompt engineering to increase the accuracy on `analyze_case()`
 4. Output a confusion matrix. Identify which misclassification is the most dangerous.
