@@ -7,7 +7,7 @@ AI-powered medical triage that classifies patient urgency as HIGH, MEDIUM, or LO
 ```bash
 export OPENAI_API_KEY="your-key-here"
 make lint # Lint/formatting
-make up # Run medical_traige.py
+make run # Run medical_traige.py
 ```
 
 ## Files
